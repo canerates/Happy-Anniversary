@@ -1268,10 +1268,11 @@ audio {
 #imagecouple {
 	filter: drop-shadow(20px 20px 10px #EE1122);
 	position: fixed;
-	width:17%;
-	left:41%;
+	width:18%;
+	left:50%;
+	margin-left: -9%;
 	top:250px;
-	opacity: 0;
+	opacity: 1;
 	animation: heartbeat 2s infinite;
 }
 
@@ -1334,3 +1335,11 @@ audio {
     		-webkit-transform: scale(0.9);
     	}
     }*/
+
+@media (max-width: 720px) {
+	#imagecouple {
+		width: 30%;
+		margin-left: -15%;
+	}
+	
+}
