@@ -1272,7 +1272,7 @@ audio {
 	left:50%;
 	margin-left: -9%;
 	top:250px;
-	opacity: 1;
+	opacity: 0;
 	animation: heartbeat 2s infinite;
 }
 
