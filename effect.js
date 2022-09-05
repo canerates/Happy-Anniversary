@@ -107,7 +107,7 @@ $('document').ready(function(){
 		$('#b11').animate({top:150, left: vw-150},500);
 		$('#b22').animate({top:150, left: vw-50},500);
 		$('#b33').animate({top:150, left: vw+50},500);
-		$('.balloons').css('opacity','0.6');
+		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
 		$('#imagecouple').css('opacity', '1');
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
