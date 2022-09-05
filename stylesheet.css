@@ -1237,6 +1237,10 @@ audio {
 	}
 }
 
+#imagecouple {
+	filter: drop-shadow(20px 20px 10px #EE1122);
+}
+
 .balloon-border{
 	position: fixed;
 	top:100%;
